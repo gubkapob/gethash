@@ -9,7 +9,7 @@ import re
 
 print ('''___ __ ___  _  _ ____ ____ _  _
 [_  |_  |   |__| |__| |__  |__|    
-|_] [_  |   |  | |  | ___] |  |  v1.0.1''')
+|_] [_  |   |  | |  | ___] |  |  v1.0.1\n''')
 
 alg = {"md5": 1, "sha1": 2, "sha256": 3, "sha384": 4, "sha512": 5}
 printinline = ', \n'.join(f'{key}: {value}' for key, value in alg.items())
